@@ -12,6 +12,7 @@
 //   3. Re-export here: `export * from './<feature>';`
 
 export * from './auth';
+export * from './booking';
 export * from './home';
 export * from './layout';
 export * from './pages';

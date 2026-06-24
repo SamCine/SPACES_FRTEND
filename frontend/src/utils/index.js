@@ -31,3 +31,13 @@ export function formatCurrency(amount, currency = "USD", locale = "en-US") {
 export function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
 }
+
+/**
+ * Format an amount as Nigerian Naira, e.g. 145000 -> "\u20a6145,000".
+ * @param {number} amount
+ * @returns {string}
+ */
+export function formatNaira(amount) {
+  if (typeof amount !== "number" || Number.isNaN(amount)) return "";
+  return `\u20a6${amount.toLocaleString("en-NG")}`;
+}

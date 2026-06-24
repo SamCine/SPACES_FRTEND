@@ -1,34 +1,30 @@
 [
   {
-    "content": "Configure mobile-first viewport settings in index.html",
+    "content": "Create mock hotel data (4 hotels: id, name, location, price, rating, image) + naira formatter util",
     "status": "completed"
   },
   {
-    "content": "Create scalable folder structure: components, pages, assets, utils",
+    "content": "Build HotelCard component (rounded card, image, rating, price, full-width Instant Book button)",
     "status": "completed"
   },
   {
-    "content": "Create placeholder route/page files: HomeFeed, AuthFlow, Dashboard",
+    "content": "Build SearchBar component (sticky, search icon) with frontend filter logic",
     "status": "completed"
   },
   {
-    "content": "Create global layout component with placeholder mobile bottom navigation bar",
+    "content": "Build BookingSheet (slide-up bottom sheet: hotel name, price breakdown, Immediate Check-in badge, Confirm & Pay + success state)",
     "status": "completed"
   },
   {
-    "content": "Set up React Router configuration in App.js",
+    "content": "Assemble HomeFeed page: header (logo + location pin), sticky search, vertical feed, sheet state wiring",
     "status": "completed"
   },
   {
-    "content": "Register test IDs for nav and pages; clean base styles",
+    "content": "Register test IDs (home + booking); verify zero compile errors",
     "status": "completed"
   },
   {
-    "content": "Verify foundation builds & runs (no errors), screenshot",
-    "status": "completed"
-  },
-  {
-    "content": "Push foundational code to repository master branch (instructions provided; user action via Save to GitHub)",
+    "content": "Verify full flow with mobile screenshots (search filter + booking + success)",
     "status": "completed"
   }
 ]
