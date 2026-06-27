@@ -1,30 +1,34 @@
 [
   {
-    "content": "Create mock hotel data (4 hotels: id, name, location, price, rating, image) + naira formatter util",
+    "content": "Check environment (node/npm/npx versions, disk) for Expo setup",
     "status": "completed"
   },
   {
-    "content": "Build HotelCard component (rounded card, image, rating, price, full-width Instant Book button)",
+    "content": "Initialize Expo TypeScript project at /app/mobile (blank-typescript template)",
     "status": "completed"
   },
   {
-    "content": "Build SearchBar component (sticky, search icon) with frontend filter logic",
+    "content": "Install React Navigation + bottom tabs deps (expo install for version alignment)",
     "status": "completed"
   },
   {
-    "content": "Build BookingSheet (slide-up bottom sheet: hotel name, price breakdown, Immediate Check-in badge, Confirm & Pay + success state)",
+    "content": "Create folder structure: /components, /screens, /navigation",
     "status": "completed"
   },
   {
-    "content": "Assemble HomeFeed page: header (logo + location pin), sticky search, vertical feed, sheet state wiring",
+    "content": "Build BottomTabNavigator (Home, Search, Bookings) + wire into App.tsx",
     "status": "completed"
   },
   {
-    "content": "Register test IDs (home + booking); verify zero compile errors",
+    "content": "Build wireframe screens: HomeScreen, SearchScreen, BookingsScreen, BookingDetailsScreen",
     "status": "completed"
   },
   {
-    "content": "Verify full flow with mobile screenshots (search filter + booking + success)",
+    "content": "Add modular placeholder components (Header, SearchBarWireframe, list/card placeholders)",
+    "status": "completed"
+  },
+  {
+    "content": "Verify zero errors: tsc --noEmit + expo bundler check",
     "status": "completed"
   }
 ]
